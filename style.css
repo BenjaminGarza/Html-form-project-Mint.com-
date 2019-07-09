@@ -1,0 +1,12 @@
+#main-form{
+    color: white;
+    height: 500px;
+    width: 400px;
+}
+#background{
+    background-color: #ECEEF1;
+}
+#form-container{
+    display: flex;
+    align-content: center;
+}
