@@ -1,12 +1,43 @@
-#main-form{
-    color: white;
-    height: 500px;
-    width: 400px;
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 8px 28px 8px 0;
 }
-#background{
-    background-color: #ECEEF1;
+nav a {
+  text-decoration: none;
 }
-#form-container{
-    display: flex;
-    align-content: center;
+#sign-in {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  height: 100%;
+  width: 120px;
+}
+.lock {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 8px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.30/images/icon-whitelock@3x.png?v=1.0.0-dev.30);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.forgot-password {
+  text-align: right;
+  margin-right: 8px;
+}
+#main-form {
+  color: white;
+  height: 500px;
+  width: 400px;
+}
+#background {
+  background-color: #eceef1;
+}
+#form-container {
+  display: flex;
+  align-content: center;
 }
