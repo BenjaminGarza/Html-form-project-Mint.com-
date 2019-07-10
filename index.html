@@ -13,18 +13,35 @@
   <nav>
     <div class="forgot-password">
       <div>Already have an Intuit account?</div>
-      <a href="">I forgot my User ID or Password</a>
+      <a class="hyperlink-style" href="">I forgot my User ID or Password</a>
     </div>
     <div>
       <button id="sign-in"><span class="lock"></span>Sign in</button>
     </div>
   </nav>
   <div id="form-container">
-    <h1>Create an account</h1>
+    
     <form id="main-form">
-      <label>
-        <input type="text">
-      </label>
+      <div id="form-description">
+        <h1 >Create an account</h1>
+        <p class="form-description-text">One account for everything intuit, including Mint</p>
+        <a class="hyperlink-style" href="">Learn more</a>
+      </div>
+
+      <div id="label-input-container">
+      <label >Email address <br>
+        <input class="input-styling" type="email">
+      </label> <br>
+      
+      <label >Please enter a telephone number <br>
+        <input class="input-styling" type="tel">
+      </label> <br>
+      
+      <label >Please enter a password <br>
+        <input class="input-styling" type="password">
+      </label> <br>
+    </div>
+
     </form>
   </div>
 </body>
